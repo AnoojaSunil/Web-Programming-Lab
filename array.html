@@ -1,0 +1,32 @@
+<html>
+ <body>
+  <script language="javascript" type="text/javascript">
+   var i;
+   var a=[]
+   a[0]=45;
+   a[1]=48;
+   a[2]=42;
+   a[3]=43;
+   var sum=0;
+   document.write("<br/> <u>Marksheet</u>");
+   document.write("<br/> Maths:",a[0]);
+   document.write("<br/> Digital:",a[1]);
+   document.write("<br/> SE:",a[2]);
+   document.write("<br/> DS:",a[3]);
+  for(i=0;i<=3;i++)
+  {
+   sum=sum+a[i];
+   }
+  document.write("<br/> Total Marks Obtained:",sum);
+   if(sum<=70)
+   {
+    document.write("<br/> ******Failed******");
+   }
+   else
+   {
+     document.write("<br/> *******Passed******");
+   }
+  </script>
+ </body>
+</html>
+  
